@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JuegoOperaciones.Juego">
+
+    <StackLayout Orientation="Vertical">
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="labelTitulo" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="labelNumA" Text="A" />
+            <Label x:Name="labelSigno" Text="+"/>
+            <Label x:Name="labelNumB" Text="B"/>
+        </StackLayout>
+        <Entry x:Name="entryResultado" Placeholder="Resultado" Keyboard="Numeric"></Entry>
+        <Button x:Name="buttonContinuar" Text="Continuar"/>
+    </StackLayout>
+</ContentPage>
